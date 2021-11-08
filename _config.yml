@@ -1,3 +1,15 @@
-markdown: redcarpet
+markdown: kramdown
 # baseurl: 
 exclude: ["README.md"]
+
+collections_dir: collections
+collections:
+  notes-linalg-mit:
+    output: true
+    permalink: /notes/linalg/mit/:name
+  notes-linalg-matmethods:
+    output: true
+    permalink: /notes/linalg/matmethods/:name
+  notes-robot-mr:
+    output: true
+    permalink: /notes/robot/mr/:name

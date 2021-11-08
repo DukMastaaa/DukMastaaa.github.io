@@ -1,0 +1,55 @@
+html {
+    /* margin: 0;
+    padding: 0; */
+    font-family: "Rubik", sans-serif;
+}
+
+:root {
+	--global-left-margin: 20px;
+}
+
+body {
+    margin-left: var(--global-left-margin);
+    padding: 5px;
+    font-family: "Rubik", sans-serif;
+    font-size: 16pt;
+}
+
+ul.topnav {
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #FFF;
+  	color: black;
+}
+
+ul.topnav li *, li.navtext {
+	padding: 16px 18px;
+}
+
+li.navtext {
+	float: left;
+	text-align: center;
+	padding-right: 50px;
+	padding-left: 0px;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+ul.topnav li a {
+	float: left;
+	display: block;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #ABA;
+	color: #FFF;
+}
+
+li a:visited {
+	color: black;
+}
+
